@@ -1,6 +1,7 @@
 # $ meta_title Sukka's Ruleset - General Global Services
 # $ meta_description This file contains rules for services that are not available inside the Mainland China.
 # >> Customize
+DOMAIN-SUFFIX,nba.com
 DOMAIN-SUFFIX,ycombinator.com
 DOMAIN-SUFFIX,downloadhelper.net
 DOMAIN-SUFFIX,grandviewresearch.com
