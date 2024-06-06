@@ -1,23 +1,12 @@
-#########################################
-# Sukka's Ruleset - General Global Services
-# Last Updated: 2024-05-24T12:19:47.953Z
-# Size: 569
-# License: AGPL 3.0
-# Homepage: https://ruleset.skk.moe
-# GitHub: https://github.com/SukkaW/Surge
-#
-# This file contains rules for services that are not available inside the Mainland China.
-#########################################
-DOMAIN,pki.goog
-DOMAIN,addons.mozilla.org
-DOMAIN,ees.elsevier.com
-DOMAIN,ccmdl.adobe.com
-DOMAIN,media.steampowered.com
-DOMAIN,wego.here.com
+# $ meta_title Sukka's Ruleset - General Global Services
+# $ meta_description This file contains rules for services that are not available inside the Mainland China.
+# >> Customize
 DOMAIN-SUFFIX,ycombinator.com
 DOMAIN-SUFFIX,downloadhelper.net
 DOMAIN-SUFFIX,grandviewresearch.com
 DOMAIN-SUFFIX,researchandmarkets.com
+
+# >> Google
 DOMAIN-SUFFIX,abc.xyz
 DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,android.com
@@ -100,26 +89,46 @@ DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
+
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,blogspot
+
 DOMAIN-SUFFIX,dns.google
+# ocsp.pki.goog and o.pki.goog is available in Mainland China
+DOMAIN,pki.goog
+
+# GAE
 DOMAIN-SUFFIX,run.app
+
+# >> Cloudflare
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cloudflareresolve.com
 DOMAIN-SUFFIX,cloudflarestatus.com
 DOMAIN-SUFFIX,cloudflareaccess.com
+
+# >> Microsoft Overseas
 DOMAIN-SUFFIX,office365.com
 DOMAIN-SUFFIX,windows.net
 DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,linkedin.at
 DOMAIN-SUFFIX,lnkd.in
+# Bing Image AI
 DOMAIN-SUFFIX,bing.com
+
+# >> Oracle
 DOMAIN-SUFFIX,oracle.com
+
+# >> 451
 DOMAIN-SUFFIX,aicoin.com
 DOMAIN-SUFFIX,aimoon.com
 DOMAIN-SUFFIX,engadget.com
 DOMAIN-SUFFIX,ifixit.com
 DOMAIN-SUFFIX,terabox.com
 DOMAIN-SUFFIX,zaobao.com.sg
+DOMAIN,addons.mozilla.org
+
+# >> GitHub
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,github.blog
 DOMAIN-SUFFIX,github.community
@@ -130,28 +139,40 @@ DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,github.io
 DOMAIN-SUFFIX,githubapp.com
 DOMAIN-SUFFIX,githubassets.com
+
+# >> News
 DOMAIN-SUFFIX,globo.com
 DOMAIN-SUFFIX,foxnews.com
 DOMAIN-SUFFIX,cnn.com
 DOMAIN-SUFFIX,npr.org
 DOMAIN-SUFFIX,telegraph.co.uk
+
+# >> Speedtest
 DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,speedtestcustom.com
 DOMAIN-SUFFIX,cdnst.net
+
+# >> Archive
 DOMAIN-SUFFIX,archive.org
 DOMAIN-SUFFIX,archive.fo
 DOMAIN-SUFFIX,archive.ph
 DOMAIN-SUFFIX,archive.is
 DOMAIN-SUFFIX,archive.today
+
+# >> Snapchat
 DOMAIN-SUFFIX,sc-cdn.net
 DOMAIN-SUFFIX,snap-dev.net
 DOMAIN-SUFFIX,snap.com
 DOMAIN-SUFFIX,snapchat.com
 DOMAIN-SUFFIX,snapkit.co
+
+# >> Signal
 DOMAIN-SUFFIX,signal.art
 DOMAIN-SUFFIX,signal.org
 DOMAIN-SUFFIX,signalusers.org
 DOMAIN-SUFFIX,whispersystems.org
+
+# >> Facebook
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,fb.com
@@ -170,7 +191,12 @@ DOMAIN-SUFFIX,tfbnw.net
 DOMAIN-SUFFIX,fbsbx.com
 DOMAIN-SUFFIX,threads.net
 DOMAIN-SUFFIX,facebook-hardware.com
+DOMAIN-KEYWORD,facebook
+# WhatsApp
+DOMAIN-KEYWORD,whatsapp
 DOMAIN-SUFFIX,wa.me
+
+# >> Twitter
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,twimg.co
@@ -181,6 +207,8 @@ DOMAIN-SUFFIX,twitter.jp
 DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,pscp.tv
+
+# >> Line
 DOMAIN-SUFFIX,lin.ee
 DOMAIN-SUFFIX,line.biz
 DOMAIN-SUFFIX,line.me
@@ -201,11 +229,16 @@ DOMAIN-SUFFIX,linemobile.com
 DOMAIN-SUFFIX,linemyshop.com
 DOMAIN-SUFFIX,lineshoppingseller.com
 DOMAIN-SUFFIX,linetv.tw
+
+# >> Discord
 DOMAIN-SUFFIX,dis.gd
 DOMAIN-SUFFIX,discord.com
 DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discordapp.net
 DOMAIN-SUFFIX,discordcdn.com
+DOMAIN-KEYWORD,discord
+
+# >> Crypto
 DOMAIN-SUFFIX,aex.com
 DOMAIN-SUFFIX,binance.cc
 DOMAIN-SUFFIX,binance.com
@@ -225,10 +258,18 @@ DOMAIN-SUFFIX,mexc.com
 DOMAIN-SUFFIX,kraken.com
 DOMAIN-SUFFIX,etherscan.io
 DOMAIN-SUFFIX,cryptocompare.com
+
+# >> Academic
+DOMAIN,ees.elsevier.com
+DOMAIN-KEYWORD,sci-hub
+
+# >> 1Password
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,1passwordservices.com
 DOMAIN-SUFFIX,1password.eu
 DOMAIN-SUFFIX,1password.ca
+
+# >> PicACG
 DOMAIN-SUFFIX,bikaa.xyz
 DOMAIN-SUFFIX,bikac.xyz
 DOMAIN-SUFFIX,bikaios.xyz
@@ -239,10 +280,16 @@ DOMAIN-SUFFIX,picacn.xyz
 DOMAIN-SUFFIX,picacomic.com
 DOMAIN-SUFFIX,picacomic.xyz
 DOMAIN-SUFFIX,wikawika.xyz
+
+# >> SCP Wiki
 DOMAIN-SUFFIX,scp-wiki.net
 DOMAIN-SUFFIX,scpdb.org
 DOMAIN-SUFFIX,scpwiki.com
+
+# >> Firefox
 DOMAIN-SUFFIX,firefox.com
+
+# >> Shadow Library
 DOMAIN-SUFFIX,singlelogin.se
 DOMAIN-SUFFIX,singlelogin.re
 DOMAIN-SUFFIX,z-library.se
@@ -255,6 +302,8 @@ DOMAIN-SUFFIX,libgen.fun
 DOMAIN-SUFFIX,annas-archive.se
 DOMAIN-SUFFIX,annas-archive.gs
 DOMAIN-SUFFIX,annas-archive.org
+
+# >> ---------
 DOMAIN-SUFFIX,18comic.vip
 DOMAIN-SUFFIX,4shared.com
 DOMAIN-SUFFIX,520cc.cc
@@ -300,6 +349,7 @@ DOMAIN-SUFFIX,brave.com
 DOMAIN-SUFFIX,bwh1.net
 DOMAIN-SUFFIX,castbox.fm
 DOMAIN-SUFFIX,cbc.ca
+DOMAIN,ccmdl.adobe.com
 DOMAIN-SUFFIX,cdpn.io
 DOMAIN-SUFFIX,change.org
 DOMAIN-SUFFIX,character.ai
@@ -327,6 +377,7 @@ DOMAIN-SUFFIX,disqus.com
 DOMAIN-SUFFIX,dlsite.com
 DOMAIN-SUFFIX,doujins.com
 DOMAIN-SUFFIX,dribbble.com
+DOMAIN-KEYWORD,dropbox
 DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropbox-dns.com
 DOMAIN-SUFFIX,dropboxapi.com
@@ -565,19 +616,19 @@ DOMAIN-SUFFIX,yandex.net
 DOMAIN-SUFFIX,yandex.ru
 DOMAIN-SUFFIX,zendesk.com
 DOMAIN-SUFFIX,moon.fm
+
+DOMAIN-KEYWORD,jav
+# Keyword Collected
+DOMAIN-KEYWORD,pinterest
+DOMAIN-KEYWORD,porn
+
+DOMAIN,media.steampowered.com
+DOMAIN,wego.here.com
+
 DOMAIN-SUFFIX,majsoul.union-game.com
+
 DOMAIN-SUFFIX,prowritingaid.com
 DOMAIN-SUFFIX,wordtune.com
 DOMAIN-SUFFIX,quillbot.com
-DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD,blogspot
-DOMAIN-KEYWORD,facebook
-DOMAIN-KEYWORD,whatsapp
-DOMAIN-KEYWORD,discord
-DOMAIN-KEYWORD,sci-hub
-DOMAIN-KEYWORD,dropbox
-DOMAIN-KEYWORD,jav
-DOMAIN-KEYWORD,pinterest
-DOMAIN-KEYWORD,porn
+
 USER-AGENT,Roam*
-################## EOF ##################
