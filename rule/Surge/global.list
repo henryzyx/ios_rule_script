@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,amagi.tv
 DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,wurl.tv
+DOMAIN-SUFFIX,wurl.com
 
 # >> Google
 DOMAIN-SUFFIX,abc.xyz
