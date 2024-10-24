@@ -18,7 +18,10 @@ DOMAIN-SUFFIX,pi.ai
 DOMAIN-SUFFIX,heypi.com
 DOMAIN-SUFFIX,podcasts.apple.com
 DOMAIN-SUFFIX,notepad-plus-plus.org
-DOMAIN-SUFFIX,futuhk.com
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,amagi.tv
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,wurl.tv
 
 # >> Google
 DOMAIN-SUFFIX,abc.xyz
